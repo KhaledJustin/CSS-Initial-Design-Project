@@ -3,4 +3,13 @@ h1 {
 }
 h2 {
   font-family: Aclonica;
+  text-align: center;
+  border: 1px black;
+}
+header {
+  background-color: #eab87e;
+  border: 1px black;
+  text-align: center;
+}
+body {
 }
