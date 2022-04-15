@@ -15,6 +15,23 @@
     .Sale {
       color: red;
     }
+    .nav-link li {
+      display: inline-block;
+    }
+    .top-nav {
+      overflow: hidden;
+      background-color: lightgray;
+    }
+    .top-nav a {
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 7px 10px;
+      text-decoration: none;
+      font-size: 20px;
+      border-width: 1px 1px;
+      width: 14%;
+    }
   </style>
   <body>
     <header>
@@ -55,21 +72,24 @@
       />
       <img
         alt="picture of small shopping cart icon"
-        src="Images/Shopping-cart-icon.jpg"
-        width="45px"
+        src="Images/Shopping-cart.png"
+        width="35px"
         height="35px"
       />
     </header>
-    <nav>
-      <ul>
-        <li>All</li>
-        <li>Best Sellers</li>
-        <li>Deals</li>
-        <li>New Releases</li>
-        <li>Exclusives</li>
-        <li>Essentials</li>
-      </ul>
-    </nav>
+    <div class="top-nav">
+      <nav>
+        <ul>
+          <a href="index.html">All</a>
+          <a href="index.html">Best Sellers</a>
+          <a href="index.html">Deals</a>
+          <a href="index.html">New Releases</a>
+          <a href="index.html">Exclusives</a>
+          <a href="index.html">Essentials</a>
+        </ul>
+      </nav>
+    </div>
+
     <h2>Deals Of The Day</h2>
     <section>
       <p>Logitech Gaming Mouse</p>
