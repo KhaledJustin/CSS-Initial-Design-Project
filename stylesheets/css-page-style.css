@@ -1,14 +1,52 @@
 h1 {
-  font-family: Aclonica;
+  font-family: Arial, Helvetica, sans-serif;
 }
+/* Made a box design for the subheadings with a white background */
 h2 {
-  font-family: Aclonica;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
   text-align: center;
   border: 1px groove black;
   padding: 14px 16px;
 }
+/* Made the text bigger and improved the font */
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  display: inline-block;
+}
+/* just changed the background colour */
+main {
+  background-color: #ece9e4;
+}
+/* Made the header a sandy colour because it's the sahara */
 header {
   background-color: #eab87e;
   border: 1px black;
   text-align: center;
+}
+/* Styled it so that the text could be on top of the logo */
+.logo-home {
+  display: inline-block;
+  width: 25%;
+}
+/* Styled it so that the links are aligned horizontaly instead of verticaly */
+.nav-link li {
+  display: inline-block;
+}
+/*  */
+.top-nav {
+  overflow: hidden;
+  background-color: lightgray;
+}
+/* Styled each link to look nicer with a box */
+.top-nav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 7px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  border-width: 1px 1px;
+  width: 14%;
 }

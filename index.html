@@ -12,6 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sahara Home Page</title>
+    <!-- Linked my html stylesheet to the home page -->
     <link
       rel="stylesheet"
       type="text/css"
@@ -19,37 +20,24 @@
     />
   </head>
   <style>
-    .Sale {
+    .sale {
       color: red;
     }
-    .nav-link li {
-      display: inline-block;
+    .cross-out {
+      text-decoration: line-through;
     }
-    .top-nav {
-      overflow: hidden;
-      background-color: lightgray;
-    }
-    .top-nav a {
-      float: left;
-      color: black;
-      text-align: center;
-      padding: 7px 10px;
-      text-decoration: none;
-      font-size: 20px;
-      border-width: 1px 1px;
-      width: 14%;
-    }
-
-    .Products {
+    .products {
       background-color: white;
       display: inline-block;
       width: 25%;
-      padding: 25px 30px;
+      padding: 30px 40px;
+      gap: px;
     }
   </style>
   <body>
     <header>
-      <div style="display: inline-block; width: 25%">
+      <!-- Made a div so that I can edit the text to appear on top of the logo -->
+      <div class="logo-home">
         <h1>Sahara</h1>
         <a href="index.html">
           <img
@@ -60,9 +48,10 @@
           />
         </a>
       </div>
-
+      <!-- Made an input field to put a search bar in the header -->
       <label for="search">search:</label>
       <input type="text" name="search" id="search" />
+      <!-- Made the canadian flag clickable -->
       <a>
         <img
           alt="Picture of the Canadian Flag"
@@ -71,25 +60,29 @@
           height="25px"
         />
       </a>
+      <!-- Added an image of a drop down menu beside the flag -->
       <img
         alt="picture of a down arrow for a drop down list"
         src="Images/Drop-Down-List.png"
         width="20px"
         height="15px"
       />
-      <p style="display: inline-block; margin-left: 20px">Sign In</p>
+      <p>Sign In</p>
+      <!-- Also added drop down menu next to the sign in -->
       <img
         alt="picture of a down arrow for a drop down list"
         src="Images/Drop-Down-List.png"
         width="20px"
         height="15px"
       />
+      <!-- Added a small shopping cart -->
       <img
         alt="picture of small shopping cart icon"
         src="Images/Shopping-cart.png"
         width="35px"
         height="35px"
       />
+      <!-- Made a div to style all the navigation links of the website even though they don't link to anything yet -->
     </header>
     <div class="top-nav">
       <nav>
@@ -103,44 +96,48 @@
         </ul>
       </nav>
     </div>
+    <main>
+      <h2>Deals Of The Day</h2>
+      <!-- Made sections to seperate the products -->
+      <div>
+        <section class="products">
+          <p>Logitech Gaming Mouse</p>
+          <img
+            alt="Picture of a logitech gaming mouse"
+            src="Images/Gaming-Mouse.jpg"
+            width="300px"
+            height="170px"
+          />
+          <p><span class="cross-out">$79.99</span></p>
+          <p><span class="sale">$49.99</span></p>
+        </section>
 
-    <h2>Deals Of The Day</h2>
-    <div>
-      <section class="Products">
-        <p>Logitech Gaming Mouse</p>
-        <img
-          alt="Picture of a logitech gaming mouse"
-          src="Images/Gaming-Mouse.jpg"
-          width="300px"
-          height="170px"
-        />
-        <p>$79.99</p>
-        <p class="Sale">$49.99</p>
-      </section>
-      <section class="Products">
-        <p>Samsung Gaming Monitor</p>
-        <img
-          alt="Picture of a samsung gaming monitor"
-          src="Images/Samsung Gaming Monitor.jpg"
-          width="300px"
-          height="250px"
-        />
-        <p>$279.99</p>
-        <p class="Sale">$179.99</p>
-      </section>
-      <section class="Products">
-        <p>Apple Ipad Air</p>
-        <img
-          alt="Picture of a white apple ipad air"
-          src="Images/Apple ipad air.jfif"
-          width="225px"
-          height="250px"
-        />
-        <p>$899.99</p>
-        <p class="Sale">$749.99</p>
-      </section>
-    </div>
+        <section class="products">
+          <p>Samsung Gaming Monitor</p>
+          <img
+            alt="Picture of a samsung gaming monitor"
+            src="Images/Samsung Gaming Monitor.jpg"
+            width="300px"
+            height="250px"
+          />
+          <p><span class="cross-out">$279.99</span></p>
+          <p><span class="sale">$179.99</span></p>
+        </section>
 
-    <h2>Where You Left Off</h2>
+        <section class="products">
+          <p>Apple Ipad Air</p>
+          <img
+            alt="Picture of a white apple ipad air"
+            src="Images/Apple ipad air.jfif"
+            width="225px"
+            height="250px"
+          />
+          <p><span class="cross-out">$899.99</span></p>
+          <p><span class="sale">$749.99</span></p>
+        </section>
+      </div>
+
+      <h2>Where You Left Off</h2>
+    </main>
   </body>
 </html>
