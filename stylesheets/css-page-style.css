@@ -6,11 +6,15 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
   text-align: center;
-  border: 1px groove black;
+  border: 1px groove #333333;
   padding: 14px 16px;
 }
 /* Made the text bigger and improved the font */
 p {
+  line-height: 34px;
+  word-spacing: 4px;
+  letter-spacing: 3px;
+  color: #333333;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   display: inline-block;
@@ -26,27 +30,23 @@ header {
   text-align: center;
 }
 /* Styled it so that the text could be on top of the logo */
-.logo-home {
+#logo-home {
   display: inline-block;
   width: 25%;
 }
-/* Styled it so that the links are aligned horizontaly instead of verticaly */
-.nav-link li {
-  display: inline-block;
-}
 /*  */
-.top-nav {
+#top-nav {
   overflow: hidden;
   background-color: lightgray;
 }
 /* Styled each link to look nicer with a box */
-.top-nav a {
+#top-nav a {
   float: left;
-  color: black;
+  color: #333333;
   text-align: center;
   padding: 7px 10px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
   border-width: 1px 1px;
   width: 14%;
 }
