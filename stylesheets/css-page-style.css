@@ -4,7 +4,7 @@ h1 {
 /* Made a box design for the subheadings with a white background */
 h2 {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
+  background-color: #ba677d;
   text-align: center;
   border: 1px groove #333333;
   padding: 14px 16px;
@@ -21,12 +21,12 @@ p {
 }
 /* just changed the background colour */
 main {
-  background-color: #ece9e4;
+  background-color: #f6f6f2;
 }
 /* Made the header a sandy colour because it's the sahara */
 header {
   background-color: #eab87e;
-  border: 1px black;
+  border: 1px #333333;
   text-align: center;
 }
 /* Styled it so that the text could be on top of the logo */
@@ -37,7 +37,7 @@ header {
 /*  */
 #top-nav {
   overflow: hidden;
-  background-color: lightgray;
+  background-color: #bbaaae;
 }
 /* Styled each link to look nicer with a box */
 #top-nav a {
