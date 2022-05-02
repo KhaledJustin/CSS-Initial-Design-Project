@@ -1,3 +1,7 @@
+body {
+  line-height: 140%;
+  font-family: Arial, Helvetica, sans-serif;
+}
 h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -12,10 +16,9 @@ h2 {
 /* Made the text bigger and improved the font */
 p {
   line-height: 34px;
-  word-spacing: 4px;
-  letter-spacing: 3px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
   color: #333333;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   display: inline-block;
 }
@@ -35,18 +38,27 @@ header {
   width: 25%;
 }
 /*  */
-#top-nav {
-  overflow: hidden;
+.top-nav {
   background-color: #bbaaae;
+  padding: 6px 15px 6px 15px;
 }
 /* Styled each link to look nicer with a box */
-#top-nav a {
-  float: left;
+.top-nav a {
+  font-weight: bold;
   color: #333333;
-  text-align: center;
-  padding: 7px 10px;
+  margin: 10px;
   text-decoration: none;
   font-size: 24px;
   border-width: 1px 1px;
   width: 14%;
+}
+.text {
+  width: 80%;
+  display: inline-block;
+}
+.new-products {
+  margin: 20px;
+  border: 2px groove #333333;
+  padding: 1px 1px;
+  display: inline-block;
 }
