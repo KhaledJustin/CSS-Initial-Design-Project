@@ -1,0 +1,86 @@
+<!--
+  Name: Khaled Ibrahim
+  Course: Web Development
+  Teacher: Mr. Hardman
+  School: Pembina Trails Early College
+  Date Last Modified: May 4, 2022
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Sellers Page</title>
+    <!-- Linked my html stylesheet to the home page -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="stylesheets/css-page-style.css"
+    />
+  </head>
+</html>
+<header>
+  <!-- Made a div so that I can edit the text to appear on top of the logo -->
+  <div id="logo-home">
+    <h1>Sahara</h1>
+    <a href="index.html">
+      <img
+        alt="Logo of a Sand Dune"
+        src="Images/Sahara-Icon.webp"
+        width="100px"
+        height="60px"
+      />
+    </a>
+  </div>
+  <!-- Made an input field to put a search bar in the header -->
+  <label for="search">search:</label>
+  <input type="text" name="search" id="search" />
+  <!-- Made the canadian flag clickable -->
+  <a href="index.html">
+    <img
+      alt="Picture of the Canadian Flag"
+      src="Images/Canadian-Flag.webp"
+      width="45px"
+      height="25px"
+    />
+  </a>
+  <!-- Added an image of a drop down menu beside the flag -->
+  <img
+    alt="picture of a down arrow for a drop down list"
+    src="Images/Drop-Down-List.png"
+    width="20px"
+    height="15px"
+  />
+  <p>Sign In</p>
+  <!-- Also added drop down menu next to the sign in -->
+  <img
+    alt="picture of a down arrow for a drop down list"
+    src="Images/Drop-Down-List.png"
+    width="20px"
+    height="15px"
+  />
+  <!-- Added a small shopping cart -->
+  <img
+    alt="picture of small shopping cart icon"
+    src="Images/Shopping-cart.png"
+    width="35px"
+    height="35px"
+  />
+  <!-- Made a div to style all the navigation links 
+        of the website even though they don't link to anything yet -->
+  <nav class="top-nav">
+    <ul>
+      <a href="index.html">All</a>
+      <a href="New-Page.html">Best Sellers</a>
+      <a href="index.html">Deals</a>
+      <a href="new-releases.html">New Releases</a>
+      <a href="index.html">Exclusives</a>
+      <a href="index.html">Essentials</a>
+    </ul>
+  </nav>
+</header>
+<main>
+  <p>Valorant</p>
+  <p>Tyler Herro ==== best basketball player</p>
+</main>
