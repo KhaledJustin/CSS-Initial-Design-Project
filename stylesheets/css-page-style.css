@@ -1,36 +1,36 @@
 /* 
-Made sure to make the line height of all the elements to 140% 
-to improve the readability. I also used a sans-serif font because
-I want the website to be modern and I also want it to appeal to 
-the new generation since that's most of the users
+  Made sure to make the line height of all the elements to 140% 
+  to improve the readability. I also used a sans-serif font because
+  I want the website to be modern and I also want it to appeal to 
+  the new generation since that's most of the users
 */
 /* 
-I chose a light theme since the website is mostly used in the daytime
-and there is also a lot of text and elements.
-*/
+  I chose a light theme since the website is mostly used in the daytime
+  and there is also a lot of text and elements.
+  */
 /* 
-Colour family that i chose was sand, purple, grey, and white. I choose the sandy colour since
-the company is literally sahara so it represents the desert. The purple is associated with curiosity
-and mystery so I want people to feel curious when browsing for a product since you want to see 
-how much it costs or what it does. Grey and white are just there to neutralize these two colours.
+  Colour family that i chose was sand, purple, grey, and white. I choose the sandy colour since
+  the company is literally sahara so it represents the desert. The purple is associated with curiosity
+  and mystery so I want people to feel curious when browsing for a product since you want to see 
+  how much it costs or what it does. Grey and white are just there to neutralize these two colours.
 */
 body {
   line-height: 140%;
   font-family: Arial, Helvetica, sans-serif;
 }
 /* 
-Made it use sans-serif since it needs to be modern and it
-needs to appeal to the youth. Changed colour for the contrast
+  Made it use sans-serif since it needs to be modern and it
+  needs to appeal to the youth. Changed colour for the contrast
 */
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: #333333;
 }
 /* 
-Made a box design for the subheadings with a purpleish colour 
-according to the colour pallette that I'm using. Also it is my
-secondary colour option. Changed the font sized based on hiarchy. 
-Added a border and changed the text colour for the contrast
+  Made a box design for the subheadings with a purpleish colour 
+  according to the colour pallette that I'm using. Also it is my
+  secondary colour option. Changed the font sized based on hiarchy. 
+  Added a border and changed the text colour for the contrast
 */
 h2 {
   font-family: Arial, Helvetica, sans-serif;
@@ -42,7 +42,7 @@ h2 {
   padding: 14px 16px;
 }
 /*
- Made the text bigger and improved the font. Also made it so that the line height is 34 pixels,
+  Made the text bigger and improved the font. Also made it so that the line height is 34 pixels,
   there is 2px for word spacing, and there is only word spacing of 1 pixel. Made the font size 24 
   pixels and changed it to display as an inline block
  */
@@ -55,16 +55,16 @@ p {
   display: inline-block;
 }
 /* 
-just changed the background colour to a white-ish colour to neutralize
+  just changed the background colour to a white-ish colour to neutralize
 */
 main {
   background-color: #f6f6f2;
 }
 /*
- Made the header a sandy colour because it's the sahara 
- Also in colour psychology it represents elegance and it
- also gives you a cozy and elegant environment. This is 
- my primary colour
+  Made the header a sandy colour because it's the sahara 
+  Also in colour psychology it represents elegance and it
+  also gives you a cozy and elegant environment. This is 
+  my primary colour
 */
 header {
   background-color: #eab87e;
@@ -77,17 +77,17 @@ header {
   width: 25%;
 }
 /* 
-Used grey for a neutral colour so that it doesn't draw that much attention. Also used padding to
-separate the links a bit and to make it look better
+  Used grey for a neutral colour so that it doesn't draw that much attention. Also used padding to
+  separate the links a bit and to make it look better
 */
 .top-nav {
   background-color: #bbaaae;
   padding: 6px 15px 6px 15px;
 }
 /* 
-Styled each link to look nicer and I made the font size bigger to improve readability.
-Also added a border and added a margin to make it look less clustered. Specified width
-so that they are more spaced out
+  Styled each link to look nicer and I made the font size bigger to improve readability.
+  Also added a border and added a margin to make it look less clustered. Specified width
+  so that they are more spaced out
 */
 .top-nav a {
   font-weight: bold;
@@ -103,7 +103,7 @@ so that they are more spaced out
   display: inline-block;
 }
 /* 
-Added margin to make it less clustered and also added a border.
+  Added margin to make it less clustered and also added a border.
 */
 #new-products {
   margin: 20px;
@@ -112,8 +112,8 @@ Added margin to make it less clustered and also added a border.
   display: inline-block;
 }
 /* 
-Added a margin and paddings to make it look less clustered. Also added a border with
-the purple colour from my pallete
+  Added a margin and paddings to make it look less clustered. Also added a border with
+  the purple colour from my pallete
 */
 .staff-picks {
   margin: 15px;
