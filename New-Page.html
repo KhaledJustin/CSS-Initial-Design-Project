@@ -19,13 +19,23 @@
       href="stylesheets/css-page-style.css"
     />
     <style>
+      /* 
+        Used W3Schools for some of this
+        Made the bacground transparent so that when it's flipping you
+        don't see the outline of the card on the background
+      */
       .flip-cards {
         background-color: transparent;
         width: 300px;
         height: 300px;
         perspective: 1000px;
+        margin: 25px 15px;
+        padding: 15px;
+        display: inline-block;
       }
-
+      /* 
+        Used W3Schools for some of this
+      */
       .flip-card-inner {
         position: relative;
         width: 100%;
@@ -34,11 +44,15 @@
         transition: transform 0.8s;
         transform-style: preserve-3d;
       }
-
+      /* 
+        Used W3Schools for some of this
+      */
       .flip-cards:hover .flip-card-inner {
         transform: rotateY(180deg);
       }
-
+      /* 
+        Used W3Schools for some of this
+      */
       .flip-card-front,
       .flip-card-back {
         position: absolute;
@@ -47,12 +61,16 @@
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
       }
-
+      /* 
+        Used W3Schools for some of this
+      */
       .flip-card-front {
         background-color: #add4bc;
         color: black;
       }
-
+      /* 
+        Used W3Schools for some of this
+      */
       .flip-card-back {
         background-color: #add4bc;
         color: white;
@@ -123,7 +141,7 @@
   <main>
     <h2>Best Sellers</h2>
     <section>
-      <p>Check out the best sellers of the month</p>
+      <p style="display: block">Check out the best sellers of the month</p>
       <div class="flip-cards">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -187,9 +205,9 @@
             />
           </div>
           <div class="flip-card-back">
-            <h1>Vlone shirt</h1>
-            <p>Also top seller in clothing</p>
-            <p>Only $199.99</p>
+            <h1>Nike Dunks Low "Pandas"</h1>
+            <p>Top seller in footwear</p>
+            <p>Only $299.99</p>
           </div>
         </div>
       </div>
