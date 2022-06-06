@@ -110,8 +110,8 @@ header {
 /* 
   Added margin to make it less clustered and also added a border.
 */
-#new-products {
-  margin: 20px;
+.new-products {
+  margin: 0px 30px;
   border: 2px groove #b58abe;
   padding: 1px 1px;
   display: inline-block;
@@ -122,9 +122,6 @@ header {
 */
 .staff-picks {
   margin: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 15px 10px;
   border: 4px groove #b58abe;
 }
