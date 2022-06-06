@@ -81,6 +81,9 @@ header {
   display: inline-block;
   width: 25%;
 }
+#sign-in {
+  margin-left: 40px;
+}
 /* 
   Used grey for a neutral colour so that it doesn't draw that much attention. Also used padding to
   separate the links a bit and to make it look better
