@@ -11,13 +11,16 @@
 /* 
   Colour family that i chose was sand, purple, grey, and white. I choose the sandy colour since
   the company is literally sahara so it represents the desert. The purple is associated with curiosity
-  and mystery so I want people to feel curious when browsing for a product since you want to see 
-  how much it costs or what it does. Grey and white are just there to neutralize these two colours.
+  so I want people to feel curious when browsing for a product since you want to see how much it costs 
+  or what it does. Grey and white are just there to neutralize these two colours.
 */
 * {
   line-height: 140%;
   font-family: Arial, Helvetica, sans-serif;
 }
+/* 
+  Used this for liquid layout of website
+*/
 body {
   margin: 0 2.5%;
 }
@@ -32,7 +35,7 @@ h1 {
 /* 
   Made a box design for the subheadings with a purpleish colour 
   according to the colour pallette that I'm using. Also it is my
-  secondary colour option. Changed the font sized based on hiarchy. 
+  primary colour option. Changed the font sized based on hiarchy. 
   Added a border and changed the text colour for the contrast
 */
 h2 {
@@ -68,7 +71,7 @@ main {
   Made the header a sandy colour because it's the sahara 
   Also in colour psychology it represents elegance and it
   also gives you a cozy and elegant environment. This is 
-  my primary colour
+  my secondary colour
 */
 header {
   background-color: #eab87e;
@@ -80,11 +83,19 @@ header {
   display: inline-block;
   width: 25%;
 }
+/* 
+  made a class for any element that I want to add more space to
+  so that it doesn't look cluttered. Also changed the color and 
+  font size for contrast
+*/
 .heading-spacing {
   margin-left: 40px;
   color: #333333;
   font-size: 24px;
 }
+/* 
+ Changed the size of the search box to fit with the text
+*/
 #search {
   font-size: 20px;
 }
