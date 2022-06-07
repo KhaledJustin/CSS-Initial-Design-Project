@@ -14,10 +14,12 @@
   and mystery so I want people to feel curious when browsing for a product since you want to see 
   how much it costs or what it does. Grey and white are just there to neutralize these two colours.
 */
-body {
+* {
   line-height: 140%;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+}
+body {
+  margin: 0 2.5%;
 }
 /* 
   Made it use sans-serif since it needs to be modern and it
@@ -41,7 +43,7 @@ h2 {
   text-align: center;
   border: 1px groove #333333;
   margin: 0;
-  padding: 25px 16px;
+  padding: 8px;
 }
 /*
   Made the text bigger and improved the font. Also made it so that the line height is 34 pixels,
@@ -62,9 +64,6 @@ p {
 main {
   background-color: #f6f6f2;
 }
-main section {
-  margin: 0 auto;
-}
 /*
   Made the header a sandy colour because it's the sahara 
   Also in colour psychology it represents elegance and it
@@ -81,8 +80,13 @@ header {
   display: inline-block;
   width: 25%;
 }
-#sign-in {
+.heading-spacing {
   margin-left: 40px;
+  color: #333333;
+  font-size: 24px;
+}
+#search {
+  font-size: 20px;
 }
 /* 
   Used grey for a neutral colour so that it doesn't draw that much attention. Also used padding to
@@ -90,7 +94,7 @@ header {
 */
 .top-nav {
   background-color: #bbaaae;
-  padding: 6px 15px 6px 15px;
+  padding: 4px 6px;
 }
 /* 
   Styled each link to look nicer and I made the font size bigger to improve readability.
@@ -100,11 +104,12 @@ header {
 .top-nav a {
   font-weight: bold;
   color: #333333;
-  margin: 10px;
+  margin: 30px;
   text-decoration: none;
   font-size: 24px;
-  border-width: 1px 1px;
-  width: 14%;
+}
+ul {
+  padding: 0%;
 }
 .text {
   width: 80%;
